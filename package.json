@@ -1,0 +1,16 @@
+{
+  "name": "cracking_the_coding_interview",
+  "version": "1.0.0",
+  "description": "Javascript solution for Cracking the Coding Interview",
+  "main": "index.js",
+  "dependencies": {
+    "sinon": "^4.2.2",
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Tyler Carson",
+  "license": "ISC"
+}
