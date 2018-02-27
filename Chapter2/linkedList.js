@@ -1,5 +1,6 @@
 function LinkedList(val) {
   this.head = new Node(val);
+  this.tail = this.head;
 }
 
 LinkedList.prototype.addToTail = function(val) {
@@ -9,6 +10,7 @@ LinkedList.prototype.addToTail = function(val) {
     node = node.next;
   }
   node.next = new Node(val);
+  this.tail = node.next;
 }
 
 function Node(val) {
