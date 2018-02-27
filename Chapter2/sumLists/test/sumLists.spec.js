@@ -16,11 +16,12 @@ describe('sumLists in a LinkedList', function() {
 
     var actual = sumLists(LL1, LL2);
 
-    var expected = new LinkedList(9);
+    var expected = new LinkedList(2);
     expected.addToTail(1);
-    expected.addToTail(2);
+    expected.addToTail(9);
 
-    assert.deepEqual(actual, expected)
+    assert.deepEqual(actual, expected);
 
   });
+
 });
