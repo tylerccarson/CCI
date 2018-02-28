@@ -13,6 +13,7 @@ LinkedList.prototype.addToTail = function(val) {
   node.next = new Node(val);
   this.tail = node.next;
   this.length++;
+  return node.next;
 }
 
 function Node(val) {
